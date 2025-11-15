@@ -29,6 +29,10 @@
     width: 100px;
     border: 2px solid transparent;
 }
+.nav-singin a{
+    color: white;
+    text-decoration: none;
+}
 
 .logo:hover,
 .nav-address:hover,
