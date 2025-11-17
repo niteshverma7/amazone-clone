@@ -1,41 +1,168 @@
 *{
-    margin: 0%;
     padding: 0%;
+    margin: 0%;
 }
-.all{
-    height: 735px;
-    width: auto;
-    background-image: url(https://img.freepik.com/premium-photo/modern-clothing-store-with-blurred-effect_1167344-55093.jpg);
-    background-size:cover;
-     justify-content: center;
-    align-items: center;
+
+.logo{
     display: flex;
-}
-.login{
-    background: #020024;
-    background: linear-gradient(96deg,rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 35%, rgba(0, 212, 255, 1) 100%);;
-    height: 250px;
-    width: 400px;
-    border: 2px solid black;
-    border-radius: 20px;
-    left: 70px;
+    justify-content: center;
+    align-items: center;
 
 }
-.page input{
-    background-color: transparent;
-    width: 54%;
-    margin: 36px 53px -142px 47px;
-    border-radius: 8px;
-    border: 1px solid #ccc;
-    color: aliceblue;
-    padding: 12px 41px;
+
+.logo img{
+    padding-top: 15px;
+    height: 31px;
+    width: 103px;
 }
-#submit button{
-    background-color: red;
+
+.continer{
+    margin-left:247.600px;
+    margin-right:247.600px;
+}
+
+.box1{
+    height: 366px;
+    width: auto;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box2{
+    border: 1px solid black;
     color: white;
-    margin: 29px 0px 1px 123px;
-    border-radius: 8px;
-    padding: 10px 50px 12px 31px;
-    font-family: cursive;
+    border-radius: 7px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     padding: 20px 26px 20px 26px;
+}
+
+.box3{
+    height:316.6px;
+    width:378px;
+}
+
+.box3 h2{
+    color:#0f1111;
+    margin: 0px 0px 8px;
+    padding: 0px 0px 4px;
+}
+
+.box3 p{
+    color:#0f1111;
+    font: 17px arial;
+    margin: 0px 0px 7px;
+}
+
+.box3 input{
+    border-radius: 4px;
+    padding: 10px 104px;
+    margin-bottom: 30px;
+}
+
+.box3 button{
+    background-color: rgb(255, 234, 6);
+    color: #0f1111;
+    padding: 10px 160px;
+    border-radius: 25px;
+    border: none;
+    margin-bottom: 20px;
     cursor: pointer;
+}
+
+#para{
+    margin-bottom: 20px;
+}
+
+a{
+    color: #2162A1;
+}
+
+.work{
+    padding-top: 9px;
+}
+
+.work span{
+padding: 0px 0px 5px;
+font: 17px arial;
+color: #0f1111;
+margin-bottom:10px;
+}
+
+.work a{
+    text-decoration: none;
+}
+
+.footer{
+     margin: 35px 0px 20px 0px;
+}
+
+#footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:10px 0px 5px 0px ;
+    gap: 25px;
+}
+
+#footer a{
+    text-decoration: none;
+}
+
+#footer1{
+   display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:10px 0px 5px 0px  
+}
+
+@media (max-width:400px) {
+
+    .all{
+        font-size: smaller;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+.continer{
+    font-size: small;
+  padding: 3px 20px 20px 20px;
+}
+
+.box2{
+    padding: 0%;
+    margin-left: 37px;
+    padding-left: 5px;
+    
+}
+
+.box3{
+    height:340.6px;
+    width:308px;
+}
+
+.box3 input{
+    border-radius: 4px;
+    padding: 10px 65px;
+    margin-bottom: 30px;
+}
+
+.box3 button{
+    border-radius: 25px;
+    padding: 10px 120px;
+    border: none;
+    cursor: pointer;
+}  
 }
