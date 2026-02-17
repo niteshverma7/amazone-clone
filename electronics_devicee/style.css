@@ -127,21 +127,6 @@ span {
     font-weight: 700;
 }
 
-#count {
-    position: absolute;
-    top: 5px;
-    right: 103px;
-    background-color: red;
-    color: white;
-    border-radius: 50%;
-    width: 20px;
-    height: 20px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 0.75rem;
-}
-
 .panel {
     height: 40px;
     background-color: #222f3d;
@@ -224,19 +209,14 @@ span {
     margin-right: 1rem;
 }
 
-.box-content p {
-    color: #007185;
+.box-content button {
+    background-color: #febd68;
+    border: none;
+    padding: 10px 15px;
+    font-size: 0.85rem;
     cursor: pointer;
-}
+    border-radius: 4px;
 
-.box-content p:hover {
-    text-decoration: underline;
-
-}
-
-.box-content a {
-    color: #007185;
-    text-decoration: none;
 }
 
 footer {
@@ -392,20 +372,9 @@ ul a {
         margin-bottom: 20px;
     }
 
-    #count {
-        right: 430px;
-        top: 117px;
-    }
-
-
     @media (max-width: 600px) {
         .foot-panel2 ul {
             width: 100%;
         }
-
-         #count {
-        right: 109px;
-        top: 117px;
-    }
     }
 }
