@@ -127,6 +127,21 @@ span {
     font-weight: 700;
 }
 
+#count {
+    position: absolute;
+    top: 5px;
+    right: 103px;
+    background-color: red;
+    color: white;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.75rem;
+}
+
 .panel {
     height: 40px;
     background-color: #222f3d;
@@ -371,10 +386,18 @@ ul a {
         width: 45%;
         margin-bottom: 20px;
     }
+       #count {
+        right: 430px;
+        top: 117px;
+    }
 
     @media (max-width: 600px) {
         .foot-panel2 ul {
             width: 100%;
         }
+           #count {
+        right: 109px;
+        top: 117px;
+    }
     }
 }
