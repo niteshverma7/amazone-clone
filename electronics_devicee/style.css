@@ -2,7 +2,6 @@
     margin: 0%;
     padding: 0%;
     font-family: Arial, Helvetica, sans-serif;
-    border: border-cover;
 }
 
 #navbar {
@@ -169,13 +168,48 @@ span {
 }
 
 .hero-section {
-    background-image: url("hero_section.jpg");
+    background-image: url("../amazone_front_png/amazone_front1.jpg");
     height: 350px;
     background-size: cover;
     justify-content: center;
     display: flex;
     align-items: flex-end;
+    transition: background-image 0.5s ease-in-out;
 
+}
+.hero-section {
+    position: relative;
+}
+
+#hero_section_swip {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px;
+    transform: translateY(-50%);
+}
+
+#hero_section_swip i {
+    height: 50px;
+    width: 50px;
+    font-size: 40px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    border: 2px solid white;
+    border-radius: 50%;
+    background: rgba(0, 0, 0, 0.2);
+}
+
+#hero_section_swip i:hover {
+    background-color: white;
+    color: black;
+    cursor: pointer;
 }
 
 .hero-msg {
@@ -396,7 +430,7 @@ ul a {
             width: 100%;
         }
            #count {
-        right: 109px;
+        right: 115px;
         top: 117px;
     }
     }
